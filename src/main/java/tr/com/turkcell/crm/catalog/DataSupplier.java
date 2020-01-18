@@ -36,7 +36,7 @@ public class DataSupplier
 
             OfferProperty uavtProperty = new OfferProperty();
             uavtProperty.setName("Tell_UAVT");
-            uavtProperty.setValue("1235295894");
+            uavtProperty.setValue(null);
             uavtProperty.setOffer(offer);
             offerPropertyRepository.save(uavtProperty);
 
